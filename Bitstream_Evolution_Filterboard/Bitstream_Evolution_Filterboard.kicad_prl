@@ -64,8 +64,14 @@
       39,
       40
     ],
-    "visible_layers": "ffdffdf_ffffffff",
+    "visible_layers": "ffd7fdf_ffffffff",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "Bitstream_Evolution_Filterboard.kicad_prl",
