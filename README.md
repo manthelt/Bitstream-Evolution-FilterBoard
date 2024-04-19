@@ -10,7 +10,14 @@ Logan Manthey Spring 2023-2024
         - [Scope](#scope)
         - [Ardunio Nano](#ardunio-nano)
     - [Filter](#filter)
+        - [Testing the Filter](#testing-the-filter)
+            - [Results of the Filter Plus Software Modifications](#results-of-the-filter-plus-software-modifications)
     - [BOM](#bom)
+    - [Future Work](#future-work)
+        - [Notes for Next Revisions](#notes-for-next-revisions)
+            - [FPGA Header Placement](#fpga-header-placement)
+            - [Through Hole Parts](#through-hole-parts)
+    - [Current Timeline](#current-timeline)
 
 <!-- markdown-toc end -->
 
@@ -64,10 +71,7 @@ To test the filter the following configuration on the board was used.
 In short the signal generator was connected to the port where the FPGA signal is normally coming from and this is then connected to the ardunio nano through the PCB as normal. The scope section was connected as normal as well to monitor the filter.
 
 
-
-
-
-
+#### Results of the Filter Plus Software Modifications
 
 
 
@@ -81,4 +85,20 @@ In short the signal generator was connected to the port where the FPGA signal is
 | 0.01 uF Capacitor           | 1       |
 | 10 Pin 2.54mm Female Header | 3       |
 | 15 Pin 2.54 Female Header   | 2       |
+
+## Future Work
+
+### Notes for Next Revisions
+#### FPGA Header Placement
+Due to measuring with a ruler the pin placement is less than ideal. Getting better measurements using a caliper instead should fix this in the next revision. 
+
+#### Through Hole Parts
+I wasn't quite a fan of how the through hole parts fit with the footprints that I had. This isn't a huge issue but may want to fix for the next revision of this board.     
+
+## Current Timeline
+This board is a part of a series of more iterative and rapid prototyping boards rather than a complete all encompassing board. This is the first in that series which is meant to test the specifics of the pulse count experiment. 
+
+- [x] Revision 1
+- [ ] Revision 1.1
+  - Fix FPGA Header Placement
 
