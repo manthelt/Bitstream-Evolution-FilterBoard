@@ -4,9 +4,15 @@ Logan Manthey Spring 2023-2024
 ## Purpose
 This board is a simple header board to be able to mount an FPGA, Ardunio Nano Microcontroller, and as ESPOtek Labador to it. This board also includes a basic passive low pass filter which will filter measurements on the ardunio to be more accurate to what we can accurately gather it will also ensure consistency with how we are gathering measurements as well. This PCB also allows us to test fit headers for future boards to build as well. 
 
-| ![PCBRende:r](Bitstream_Evolution_Filterboard/Images/RenderV1.png) | 
+| ![PCBRende:r](Bitstream_Evolution_Filterboard/Images/PopulatedBoard.png) | 
 |:--:| 
-| *Completed PCB* |
+| *Populated PCB* |
+
+
+| ![PCBRende:r](Bitstream_Evolution_Filterboard/Images/CompletedBoard.png) | 
+|:--:| 
+| *Unpopulated PCB* |
+
 
 | ![PCBRende:r](Bitstream_Evolution_Filterboard/Images/RenderV1.png) | 
 |:--:| 
